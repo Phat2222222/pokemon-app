@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
       <Image src="/pokemon.png" alt="pokemon-logo" width={800} height={300} />
       <button
-        className="absolute bottom-24 bg-yellow-400 text-gray border-4 border-blue-600 rounded-md py-2 px-5 font-semibold"
+        className="absolute bottom-24 bg-yellow-400 text-black text-gray border-4 border-blue-600 rounded-md py-2 px-5 font-semibold"
         onClick={() => router.push("/pokemons")}
       >
         Explore Pokemon
