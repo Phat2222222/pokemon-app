@@ -8,7 +8,7 @@ export default function Test() {
       </div>
       <div className=" grid grid-rows-4 grid-flow-col gap-4">
         {new Array(20).fill(null).map((_, index) => (
-          <div className="w-64 h-64 bg-yellow-200 rounded-lg">a</div>
+          <div className="w-64 h-64 bg-yellow-200 rounded-lg" key={index}>a</div>
         ))}
       </div>
     </>
